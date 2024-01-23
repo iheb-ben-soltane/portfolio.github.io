@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="icon" href="./icon.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="sendMessage.js"></script>
+</head>
+
+<body>
+    <!--Header(start)-->
+    <header id="header">
+       
+       
+                <b>MyPortfolio</b>
+           
+        
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About Me</a> |
+            <a href="#MyResume">My Resume</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+    
+</header>
+<!--Header(end)-->
+
+<!--Home(start)-->
+<section id="home">
+    <div>
+        <h2>Hello, I'm Iheb</h2>
+        <h3>Front end developer!</h3>
+    </div>
+</section>
+<!--Home(end)-->
+
+<!--About(start)-->
+<section id="about">
+    <h1 class="section">About Me</h1>
+    <hr>
+    <div class="about">
+        <div>
+            <img src="iheb.png" alt="Profile Image">
+        </div>
+        
+        <div>
+            
+                
+                Thanks for your interest, here is a quick story of me and this website.
+                <hr>
+                
+                Front End Developer
+                Software Engineer with a strong foundation in both the theoretical and practical aspects of computer technology. My specialization in mobile development, combined with my drive and hard-working attitude, allows me to effectively manage new projects and tackle any difficulties that may arise.
+                <hr>
+                <br>
+            
+            </div> 
+    </div>
+    
+</section>
+<!--About(end)-->
+
+<!--Achievement(start)-->
+<section id="MyResume">
+    
+        <h1 class="section">My Resume</h1> 
+        <hr>
+        <ul>
+            <li>
+                <h3>EXPERIENCE</h3>
+                <ul>
+                    <li>
+                    <p class="title"> MA VISION, Tunis
+                        / web scraping</p>
+                    <p> As a part of summer internship, I took a part in leading the development of a web scraping applications.</p>
+                </li>
+            </ul>
+            </li>
+            <li>
+                <h3>EDUCATION</h3>
+                <ul>
+                    <li>
+                        <p class="title">Technical Sciences Baccalaureate
+                            Houmet Souk High School, Djerba</p>
+                            <p>Study of Technical Sciencesand related subjects, such as mathematics, physics, and computer science also study problem-solving, critical thinking, and analytical skills</p>
+                    </li>
+                    <li>
+                        <p class="title">First Cycle University Diploma (DEUPC)
+                            Preparatory Institute for Engineering Studies Nabeul (IPEIN)</p>
+                            <p>The curriculum includes maths, computer science,algorithms, data structures, principles of computing and technical courses.</p>
+                    </li>
+                </ul>
+            </li>
+            
+        </ul>
+    
+</section>
+<!--Achievement(end)-->
+
+<!--Contact(start)-->
+<section id="contact">
+    
+        <h1 class="section" >Contact</h1>
+        
+        <hr>
+   
+    <div>
+        <form action="#" method="post" id="contactForm">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" size="40" required pattern="[A-Za-z ]">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" size="40" required >
+            </div>
+            <div>
+                <label for="number">Number</label>
+                <input type="number" id="number" name="number" size="8" required pattern="[0-9]{8}">
+            </div>
+            <div>
+                <label for="message" >Message</label>
+                <textarea id="message" name="message" rows="5" cols="37" required></textarea>
+            </div>
+            <div>
+                
+                <button type="submit" onclick="sendMessage()" >
+                    <b>Submit</b>
+                </button>
+                
+            </div>    
+        </section>
+            <footer id="footer1" >
+                    <table>
+                    <tr>
+                        <td >
+                            <b>LinkedIn</b>
+                            <a href="#" >
+                                ➲
+                            </a>
+                        </td>
+        
+                        <td>
+                            |
+                        </td>
+        
+                        <td >
+                            <b>GitHub</b>
+                            <a href="#">
+                                ➲ 
+                            </a>
+                        </td>
+        
+                        <td>
+                            |
+                        </td>
+                        <td >
+                            <b>Twitter</b>
+                            <a href="#" >
+                                ➲
+                            </a>
+                        </td>
+        
+                        <td>
+                            |
+                        </td>
+        
+                        <td >
+                            <b>Instagram</b>
+                            <a href="#" >
+                                ➲
+                            </a>
+                        </td>
+        
+                        <td>
+                            |
+                        </td>
+        
+                        <td >
+                            <b>Email</b>
+                            <a href="#" >
+                                ➲
+                            </a>
+                        </td>
+        
+                        <td>
+                            |
+                        </td>
+        
+                        <td>
+                            <b>Website</b>
+                            <a href="#">
+                                ➲
+                            </a>
+                        </td>
+                    </tr>
+                </table>       
+            </footer>
+            <!--Footer1(end)-->
+        
+            <!--Footer2(start)-->
+            <footer id="footer2" >
+                <div>
+                      <h3>Again thanks for your interest !</h3> 
+                </div> 
+                        <a href="#header" >                           
+                                TOP  
+                        </a>                
+            </footer>
+            <!--Footer2(end)-->
+         
+        </body>
+        
+        </html>

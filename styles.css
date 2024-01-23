@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.section{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+/* Header Styles */
+header {
+    background-color: #4193da;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header b {
+    font-family: 'Comic sans MS';
+    font-size: 35px;
+    color: #ffffff;
+    margin-left: 25px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: 35;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}  
+/* Home Section Styles */
+#home {
+    padding: 40px 0;
+    text-align: center;
+    font-family:'Segoe UI';
+}
+
+/* About Section Styles */
+#about {
+    background-color: #c2c0c3;
+    padding: 40px;
+}
+
+#about .about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+#about div > div {
+    flex: 1;
+    margin-left: 20px;
+}
+
+#about div hr {
+    margin: 15px 0;
+    border: 0;
+    border-top: 1px solid #fff;
+}
+
+/* MyResume Section Styles */
+#MyResume {
+    background-color: #ebe9e9;
+    padding: 40px;
+}
+
+#MyResume .title {
+    font-family: 'Comic sans MS';
+    font-size: 15px;
+
+}
+
+#MyResume li {
+    margin-bottom: 20px;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #c2c0c3;
+    padding: 40px 0;
+}
+
+form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: left;
+}
+
+form label {
+    font-family: 'Verdana' ;
+    color: #ffffff;
+    font-size: 16px;
+    
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    
+    font-family: 'Comic sans MS';
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+
+
+footer {
+    padding: 15px;
+}
+
+#footer1 {
+    background-color: #4193da;
+}
+
+#footer1 table {
+    
+    margin: 0 auto;
+    border-spacing: 15px;
+    color: #fff;
+}
+
+#footer2 {
+    background-color: #c2c0c3;
+    color: #4193da;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer2 div {
+    margin-left: 41%;
+    text-align: center;
+}
+
+#footer2 a {
+    color: #4193da;
+    font-weight: bold;
+    font-size: 26px;
+    margin-right: 50px;
+}
